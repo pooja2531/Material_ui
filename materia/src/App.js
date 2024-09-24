@@ -1,11 +1,13 @@
 import MuiAvatar from "./component/MuiAvatar";
 import BadeMui from "./component/BadgeMui"
+import MuiList from "./component/MuiList";
 
 function App() {
   return (
     <div className="App">
      {/* <MuiAvatar></MuiAvatar> */}
-     <BadeMui></BadeMui>
+     {/* <BadeMui></BadeMui> */}
+     <MuiList></MuiList>
     </div>
   );
 }
