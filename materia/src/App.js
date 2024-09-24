@@ -1,8 +1,11 @@
+import MuiAvatar from "./component/MuiAvatar";
+import BadeMui from "./component/BadgeMui"
 
 function App() {
   return (
     <div className="App">
-     Hello
+     {/* <MuiAvatar></MuiAvatar> */}
+     <BadeMui></BadeMui>
     </div>
   );
 }
